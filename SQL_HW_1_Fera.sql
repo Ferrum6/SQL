@@ -70,43 +70,43 @@ and  name like '%8%';
 --17. Вывести пользователя у которых id равен 10
  select id, name 
  from students
-where id='10';
+where id=10;
 
 --18. Вывести пользователя у которых id равен 53
  select id, name
 from students 
-where id='53';
+where id=53;
 
 --19. Вывести пользователя у которых id больше 40
  select id, name 
-from students where id>'40';
+from students where id>40;
 
 --20. Вывести пользователя у которых id меньше 30
  select id, name
-from students where id<'30';
+from students where id<30;
 
 --21. Вывести пользователя у которых id меньше 27 или больше 88
  select * from 
 students where 
-id<'27' or id>'88';
+id<'27' or id>88;
 
 --22. Вывести пользователя у которых id меньше либо равно 37
  select id, name
-from students where id<'37' or id='37';
+from students where id<37 or id=37;
 
 --23. Вывести пользователя у которых id больше либо равно 37
 select * from 
-students where id>'37' or id='37';
+students where id>37 or id=37;
 
 --24. Вывести пользователя у которых id больше 80 но меньше 90
 select * 
 from students 
-where id>'80' and id<'90';
+where id>80 and id<90;
 
 --25. Вывести пользователя у которых id между 80 и 90
 select * 
 from students 
-where id between '80' and '90';
+where id between 80 and 90;
 
 --26. Вывести пользователей где password равен 12333, 1m313, 123313
 select *
